@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Presenter</string>
+    <string name="label_connect_server">Enter Server IP Address</string>
+    <string name="button_connect">Connect</string>
+    <string name="label_next_slide">Next Slide</string>
+    <string name="label_prev_slide">Prev Slide</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/app_name"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_connect_server"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/label_connect_server"
+        android:textSize="7pt" />
+
+    <LinearLayout
+        android:id="@+id/connectContainer"
+        android:layout_width="match_parent" 
+        android:gravity="center"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/txtIP"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="connectToSimplePresenterServer"
+        android:text="@string/button_connect" />
+
+</LinearLayout>
